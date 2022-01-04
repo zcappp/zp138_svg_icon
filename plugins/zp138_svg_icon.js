@@ -89,7 +89,7 @@ $plugin({
     noContainer: true,
     props: [{
         prop: "name",
-        type: "select",
+        type: "radio",
         label: "图标名称",
         filter: true,
         noEmpty: true,
