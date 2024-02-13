@@ -5,7 +5,7 @@ module.exports = {
     mode: process.env.mode || "development",
     devtool: false,
     entry: {
-        "zp138": "./plugins/zp138_svg_icon.js",
+        "zp138": "./src/zp138_svg_icon.js",
     },
     output: {
         path: path.join(__dirname, "build/"),
